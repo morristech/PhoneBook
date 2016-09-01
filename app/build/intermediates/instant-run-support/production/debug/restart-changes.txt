@@ -1,0 +1,2 @@
+CHANGED,/home/alexey/work/PhoneBook/app/build/intermediates/transforms/instantRun/production/debug/folders/1/5/main/ua/testapp/phonebook/ui/ContactDetailActivity.class
+CHANGED,/home/alexey/work/PhoneBook/app/build/intermediates/transforms/instantRun/production/debug/folders/1/5/main/ua/testapp/phonebook/ui/ContactDetailActivity$5.class

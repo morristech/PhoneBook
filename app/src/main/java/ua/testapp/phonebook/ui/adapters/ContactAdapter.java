@@ -29,6 +29,8 @@ import ua.testapp.phonebook.R;
 import ua.testapp.phonebook.interfaces.ContactActionListener;
 import ua.testapp.phonebook.interfaces.TaskCompleteListener;
 import ua.testapp.phonebook.model.Contact;
+import ua.testapp.phonebook.ui.ContactDetailActivity;
+import ua.testapp.phonebook.ui.LoginActivity;
 import ua.testapp.phonebook.utils.FileUtil;
 import ua.testapp.phonebook.utils.ImageLoaderHelper;
 import ua.testapp.phonebook.utils.PermissionUtil;
@@ -149,18 +151,13 @@ public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.ViewHold
         mContext.startActivity(callIntent);
     }
 
-    public void removeSelectedContact(String photoPath) {
-        mContactsSelectedList.remove(photoPath);
-        notifyItemChanged(mContactsList.indexOf(photoPath) + 1);
-    }
-
     public void setOnItemLongClickListener(TaskCompleteListener taskCompleteListener) {
         mTaskCompleteListener = taskCompleteListener;
     }
 
     private void actionClickItemContact(Contact contact, View selectedItemView) {
         if (!mIsMultiSelectMode) {
-            // TODO action start detail contact
+            actionOpenContactDetail(contact);
         } else {
             if (!mContactsSelectedList.contains(contact)) {
                 selectedItemView.setBackgroundColor(ContextCompat.getColor(mContext, R.color.light_grey_color));
@@ -177,6 +174,12 @@ public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.ViewHold
             }
         }
 
+    }
+
+    private void actionOpenContactDetail(Contact contact) {
+        Intent intent = new Intent(mContext, ContactDetailActivity.class);
+        intent.putExtra(ContactDetailActivity.CONTACT_ARG, contact);
+        mContext.startActivity(intent);
     }
 
     public void setContacts(List<Contact> contactList) {

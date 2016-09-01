@@ -14,20 +14,20 @@ public class CreateContactActivity$$ViewBinder<T extends CreateContactActivity> 
     View view;
     view = finder.findRequiredView(source, 2131492972, "field 'rootView'");
     target.rootView = view;
-    view = finder.findRequiredView(source, 2131492973, "field 'etName'");
-    target.etName = finder.castView(view, 2131492973, "field 'etName'");
-    view = finder.findRequiredView(source, 2131492974, "field 'etSurname'");
-    target.etSurname = finder.castView(view, 2131492974, "field 'etSurname'");
-    view = finder.findRequiredView(source, 2131492976, "field 'etPhoneNumber'");
-    target.etPhoneNumber = finder.castView(view, 2131492976, "field 'etPhoneNumber'");
-    view = finder.findRequiredView(source, 2131492980, "field 'etPosition'");
-    target.etPosition = finder.castView(view, 2131492980, "field 'etPosition'");
-    view = finder.findRequiredView(source, 2131492981, "field 'etEmail'");
-    target.etEmail = finder.castView(view, 2131492981, "field 'etEmail'");
-    view = finder.findRequiredView(source, 2131492982, "field 'etContactLink'");
-    target.etContactLink = finder.castView(view, 2131492982, "field 'etContactLink'");
-    view = finder.findRequiredView(source, 2131492979, "field 'ivPhoto'");
-    target.ivPhoto = finder.castView(view, 2131492979, "field 'ivPhoto'");
+    view = finder.findRequiredView(source, 2131492975, "field 'etName'");
+    target.etName = finder.castView(view, 2131492975, "field 'etName'");
+    view = finder.findRequiredView(source, 2131492976, "field 'etSurname'");
+    target.etSurname = finder.castView(view, 2131492976, "field 'etSurname'");
+    view = finder.findRequiredView(source, 2131492978, "field 'etPhoneNumber'");
+    target.etPhoneNumber = finder.castView(view, 2131492978, "field 'etPhoneNumber'");
+    view = finder.findRequiredView(source, 2131492979, "field 'etPosition'");
+    target.etPosition = finder.castView(view, 2131492979, "field 'etPosition'");
+    view = finder.findRequiredView(source, 2131492980, "field 'etEmail'");
+    target.etEmail = finder.castView(view, 2131492980, "field 'etEmail'");
+    view = finder.findRequiredView(source, 2131492981, "field 'etContactLink'");
+    target.etContactLink = finder.castView(view, 2131492981, "field 'etContactLink'");
+    view = finder.findRequiredView(source, 2131492974, "field 'ivPhoto'");
+    target.ivPhoto = finder.castView(view, 2131492974, "field 'ivPhoto'");
     return unbinder;
   }
 

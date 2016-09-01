@@ -116,9 +116,11 @@ public class CreateContactActivity extends AbstractBaseActivity {
 
     @Override
     protected void initContent() {
+        /** add phone formatter */
         UsPhoneNumberFormatter addLineNumberFormatter = new UsPhoneNumberFormatter(new WeakReference<>(etPhoneNumber), etPhoneNumber);
         etPhoneNumber.addTextChangedListener(addLineNumberFormatter);
 
+        /** init name */
         etName.addTextChangedListener(new SimpleTextWatcher(){
             @Override
             public void onTextChanged(CharSequence s, int i, int i1, int i2) {

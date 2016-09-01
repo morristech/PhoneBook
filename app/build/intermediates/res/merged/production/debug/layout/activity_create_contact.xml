@@ -1,5 +1,4 @@
-<android.support.design.widget.CoordinatorLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/root_view"
     android:layout_width="match_parent"
@@ -54,11 +53,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="left|center_vertical"
+                    android:layout_marginLeft="@dimen/size_10dp"
                     android:background="@null"
-                    android:gravity="center"
                     android:drawableLeft="@drawable/ic_user"
                     android:drawablePadding="@dimen/size_5dp"
-                    android:layout_marginLeft="@dimen/size_10dp"
+                    android:gravity="center"
                     android:textColor="@color/colorPrimary"
                     android:textSize="@dimen/input_text_size" />
 
@@ -67,8 +66,8 @@
                     style="@style/PhoneBook.EditText"
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="@dimen/size_0dp"
-                    android:paddingLeft="@dimen/size_0dp"
-                    android:hint="@string/name_hint" />
+                    android:hint="@string/name_hint"
+                    android:paddingLeft="@dimen/size_0dp" />
             </LinearLayout>
 
             <View
@@ -103,12 +102,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="left|center_vertical"
+                    android:layout_marginLeft="@dimen/size_10dp"
                     android:background="@null"
-                    android:text="+38 "
-                    android:gravity="center"
                     android:drawableLeft="@drawable/ic_perm_phone"
                     android:drawablePadding="@dimen/size_5dp"
-                    android:layout_marginLeft="@dimen/size_10dp"
+                    android:gravity="center"
+                    android:text="+38 "
                     android:textColor="@color/colorPrimary"
                     android:textSize="@dimen/input_text_size" />
 
@@ -117,10 +116,10 @@
                     style="@style/PhoneBook.EditText"
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="@dimen/size_0dp"
-                    android:paddingLeft="@dimen/size_0dp"
                     android:hint="@string/phone_hint"
                     android:inputType="phone"
-                    android:maxLength="15" />
+                    android:maxLength="15"
+                    android:paddingLeft="@dimen/size_0dp" />
             </LinearLayout>
 
             <View
@@ -149,8 +148,8 @@
                 android:id="@+id/et_mail"
                 style="@style/PhoneBook.EditText"
                 android:drawableLeft="@drawable/ic_markunread_mailbox"
-                android:inputType="textEmailAddress"
-                android:hint="@string/mail_hint" />
+                android:hint="@string/mail_hint"
+                android:inputType="textEmailAddress" />
 
             <View
                 android:layout_width="match_parent"
@@ -160,9 +159,11 @@
                 android:layout_marginRight="@dimen/size_10dp"
                 android:background="@color/colorPrimaryDark" />
 
+
             <EditText
                 android:id="@+id/et_contact_link"
                 style="@style/PhoneBook.EditText"
+                android:layout_weight="1"
                 android:drawableLeft="@drawable/ic_open_in_browser"
                 android:hint="@string/contact_link_hint" />
 

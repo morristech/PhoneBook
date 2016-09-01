@@ -57,12 +57,15 @@ public class SettingsActivity extends AbstractBaseActivity {
 
     @Override
     protected void initContent() {
+        /** init title */
         setTitleToolBar(getString(R.string.settings));
 
+        /** init user data */
         etName.setText(PreferenceHelper.getUserName());
         etSurname.setText(PreferenceHelper.getUserSurname());
         etPhoneNumber.setText(PreferenceHelper.getUserPhoneNumber());
 
+        /** add phone number formatter */
         UsPhoneNumberFormatter addLineNumberFormatter = new UsPhoneNumberFormatter(new WeakReference<>(etPhoneNumber), etPhoneNumber);
         etPhoneNumber.addTextChangedListener(addLineNumberFormatter);
     }

@@ -279,9 +279,8 @@ public class MainActivity extends AbstractBaseActivity implements NavigationView
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-
         if (id == R.id.action_search) {
-            // TODO ACTION SEARCH
+            actionEmptyFun();
         } else if (id == R.id.action_remove) {
             actionRemoveContacts();
         }
@@ -302,7 +301,7 @@ public class MainActivity extends AbstractBaseActivity implements NavigationView
         } else if (id == R.id.nav_settings) {
             actionOpenSettings();
         } else if (id == R.id.nav_sync) {
-            actionSyncContacts();
+            actionEmptyFun();
         } else if (id == R.id.nav_exit) {
             actionExitApp();
         }
@@ -362,8 +361,8 @@ public class MainActivity extends AbstractBaseActivity implements NavigationView
         }
     }
 
-    private void actionSyncContacts() {
-        UIHelper.showSnackbar(drawer, getString(R.string.error_sync_contacts));
+    private void actionEmptyFun() {
+        UIHelper.showSnackbar(drawer, getString(R.string.error_empty_fun));
     }
 
     private void actionRemoveContacts() {

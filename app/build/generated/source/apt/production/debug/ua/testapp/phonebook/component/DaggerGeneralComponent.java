@@ -41,6 +41,7 @@ import ua.testapp.phonebook.repositories.user.UserRepository_Factory;
 import ua.testapp.phonebook.repositories.user.local.UserLocalDataSource;
 import ua.testapp.phonebook.repositories.user.remote.UserRemoteDataSource;
 import ua.testapp.phonebook.ui.ContactDetailActivity;
+import ua.testapp.phonebook.ui.ContactDetailActivity_MembersInjector;
 import ua.testapp.phonebook.ui.CreateContactActivity;
 import ua.testapp.phonebook.ui.CreateContactActivity_MembersInjector;
 import ua.testapp.phonebook.ui.LoginActivity;
@@ -104,6 +105,8 @@ public final class DaggerGeneralComponent implements GeneralComponent {
   private MembersInjector<MainActivity> mainActivityMembersInjector;
 
   private MembersInjector<CreateContactActivity> createContactActivityMembersInjector;
+
+  private MembersInjector<ContactDetailActivity> contactDetailActivityMembersInjector;
 
   private MembersInjector<ContactsLoader> contactsLoaderMembersInjector;
 
@@ -204,6 +207,14 @@ public final class DaggerGeneralComponent implements GeneralComponent {
             DialogHelper_Factory.create(),
             ExternalStorageUtil_Factory.create());
 
+    this.contactDetailActivityMembersInjector =
+        ContactDetailActivity_MembersInjector.create(
+            contactManagerProvider,
+            bitmapUtilProvider,
+            fileUtilProvider,
+            DialogHelper_Factory.create(),
+            ExternalStorageUtil_Factory.create());
+
     this.contactsLoaderMembersInjector =
         ContactsLoader_MembersInjector.create(contactManagerProvider);
 
@@ -232,7 +243,7 @@ public final class DaggerGeneralComponent implements GeneralComponent {
 
   @Override
   public void inject(ContactDetailActivity contactDetailActivity) {
-    MembersInjectors.<ContactDetailActivity>noOp().injectMembers(contactDetailActivity);
+    contactDetailActivityMembersInjector.injectMembers(contactDetailActivity);
   }
 
   @Override

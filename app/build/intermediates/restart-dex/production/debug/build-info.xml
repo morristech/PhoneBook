@@ -4,30 +4,43 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="8425721848382"
-    token="6063042387547539283" >
+    timestamp="17904670568005"
+    token="6063042387547539283"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="1401" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="368" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="9" />
     <task
         name="verifier"
-        duration="0" />
+        duration="1" />
 
     <artifact
-        location="/home/alexey/work/PhoneBook/app/build/outputs/apk/app-production-debug.apk"
-        type="MAIN" />
+        location="/home/alexey/work/PhoneBook/app/build/intermediates/reload-dex/production/debug/classes.dex"
+        type="RELOAD_DEX" />
 
-    <build timestamp="8425721848382" >
+    <build timestamp="17587486628639" >
         <artifact
             location="/home/alexey/work/PhoneBook/app/build/outputs/apk/app-production-debug.apk"
             type="MAIN" />
+    </build>
+    <build timestamp="17756947613992" >
+        <artifact
+            location="/home/alexey/work/PhoneBook/app/build/intermediates/transforms/dex/production/debug/folders/1000/5/slice_6/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="17904670568005"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/alexey/work/PhoneBook/app/build/intermediates/reload-dex/production/debug/classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

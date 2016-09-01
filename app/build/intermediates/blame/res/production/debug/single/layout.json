@@ -136,12 +136,12 @@
         "source": "/home/alexey/work/PhoneBook/app/build/intermediates/exploded-aar/com.github.afollestad.material-dialogs/core/0.8.5.1/res/layout/md_stub_actionbuttons.xml"
     },
     {
-        "merged": "/home/alexey/work/PhoneBook/app/build/intermediates/res/merged/production/debug/layout/md_dialog_list.xml",
-        "source": "/home/alexey/work/PhoneBook/app/build/intermediates/exploded-aar/com.github.afollestad.material-dialogs/core/0.8.5.1/res/layout/md_dialog_list.xml"
-    },
-    {
         "merged": "/home/alexey/work/PhoneBook/app/build/intermediates/res/merged/production/debug/layout/notification_template_part_time.xml",
         "source": "/home/alexey/work/PhoneBook/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/alexey/work/PhoneBook/app/build/intermediates/res/merged/production/debug/layout/md_dialog_list.xml",
+        "source": "/home/alexey/work/PhoneBook/app/build/intermediates/exploded-aar/com.github.afollestad.material-dialogs/core/0.8.5.1/res/layout/md_dialog_list.xml"
     },
     {
         "merged": "/home/alexey/work/PhoneBook/app/build/intermediates/res/merged/production/debug/layout/activity_contact_detail.xml",

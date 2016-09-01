@@ -14,10 +14,10 @@ public class AbstractBaseActivity$$ViewBinder<T extends AbstractBaseActivity> im
   public Unbinder bind(final Finder finder, final T target, Object source) {
     InnerUnbinder unbinder = createUnbinder(target);
     View view;
-    view = finder.findOptionalView(source, 2131493053, null);
-    target.toolbar = finder.castView(view, 2131493053, "field 'toolbar'");
     view = finder.findOptionalView(source, 2131493054, null);
-    target.tvTitle = finder.castView(view, 2131493054, "field 'tvTitle'");
+    target.toolbar = finder.castView(view, 2131493054, "field 'toolbar'");
+    view = finder.findOptionalView(source, 2131493055, null);
+    target.tvTitle = finder.castView(view, 2131493055, "field 'tvTitle'");
     return unbinder;
   }
 

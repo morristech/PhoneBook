@@ -15,21 +15,21 @@ public class SettingsActivity$$ViewBinder<T extends SettingsActivity> extends Ab
     View view;
     view = finder.findRequiredView(source, 2131492972, "field 'rootView'");
     target.rootView = view;
-    view = finder.findRequiredView(source, 2131492977, "field 'fabSave' and method 'onClick'");
-    target.fabSave = finder.castView(view, 2131492977, "field 'fabSave'");
-    unbinder.view2131492977 = view;
+    view = finder.findRequiredView(source, 2131492990, "field 'fabSave' and method 'onClick'");
+    target.fabSave = finder.castView(view, 2131492990, "field 'fabSave'");
+    unbinder.view2131492990 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
         target.onClick(p0);
       }
     });
-    view = finder.findRequiredView(source, 2131492973, "field 'etName'");
-    target.etName = finder.castView(view, 2131492973, "field 'etName'");
-    view = finder.findRequiredView(source, 2131492974, "field 'etSurname'");
-    target.etSurname = finder.castView(view, 2131492974, "field 'etSurname'");
-    view = finder.findRequiredView(source, 2131492976, "field 'etPhoneNumber'");
-    target.etPhoneNumber = finder.castView(view, 2131492976, "field 'etPhoneNumber'");
+    view = finder.findRequiredView(source, 2131492975, "field 'etName'");
+    target.etName = finder.castView(view, 2131492975, "field 'etName'");
+    view = finder.findRequiredView(source, 2131492976, "field 'etSurname'");
+    target.etSurname = finder.castView(view, 2131492976, "field 'etSurname'");
+    view = finder.findRequiredView(source, 2131492978, "field 'etPhoneNumber'");
+    target.etPhoneNumber = finder.castView(view, 2131492978, "field 'etPhoneNumber'");
     return unbinder;
   }
 
@@ -39,7 +39,7 @@ public class SettingsActivity$$ViewBinder<T extends SettingsActivity> extends Ab
   }
 
   protected static class InnerUnbinder<T extends SettingsActivity> extends AbstractBaseActivity$$ViewBinder.InnerUnbinder<T> {
-    View view2131492977;
+    View view2131492990;
 
     protected InnerUnbinder(T target) {
       super(target);
@@ -49,7 +49,7 @@ public class SettingsActivity$$ViewBinder<T extends SettingsActivity> extends Ab
     protected void unbind(T target) {
       super.unbind(target);
       target.rootView = null;
-      view2131492977.setOnClickListener(null);
+      view2131492990.setOnClickListener(null);
       target.fabSave = null;
       target.etName = null;
       target.etSurname = null;

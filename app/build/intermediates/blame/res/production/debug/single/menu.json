@@ -8,6 +8,10 @@
         "source": "/home/alexey/work/PhoneBook/app/src/main/res/menu/create_contact_menu.xml"
     },
     {
+        "merged": "/home/alexey/work/PhoneBook/app/build/intermediates/res/merged/production/debug/menu/detail_contact_menu.xml",
+        "source": "/home/alexey/work/PhoneBook/app/src/main/res/menu/detail_contact_menu.xml"
+    },
+    {
         "merged": "/home/alexey/work/PhoneBook/app/build/intermediates/res/merged/production/debug/menu/drawer_menu.xml",
         "source": "/home/alexey/work/PhoneBook/app/src/main/res/menu/drawer_menu.xml"
     },

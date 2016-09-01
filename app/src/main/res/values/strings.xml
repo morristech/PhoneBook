@@ -17,7 +17,7 @@
     <string name="surname_hint">Surname</string>
     <string name="phone_number_hint">My phone number</string>
     <string name="error_phone_number_format">Phone number not valid</string>
-    <string name="error_sync_contacts">Sorry, this function will be later</string>
+    <string name="error_empty_fun">Sorry, this function will be later</string>
     <string name="error_photo_not_save">Sorry, photo not save</string>
     <string name="position_hint">Position</string>
     <string name="mail_hint">Email</string>
@@ -32,4 +32,6 @@
     <string name="title__contact_remove">Remove contacts</string>
     <string name="are_you_sure">Are you sure ?</string>
     <string name="no">no</string>
+    <string name="error_open_webview">Sorry, incorrect link</string>
+    <string name="contact_updated">Contact was updated</string>
 </resources>

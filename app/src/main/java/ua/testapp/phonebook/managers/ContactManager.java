@@ -1,12 +1,8 @@
 package ua.testapp.phonebook.managers;
 
-import android.util.Log;
-
 import java.util.ArrayList;
 import java.util.List;
-
 import javax.inject.Inject;
-
 import ua.testapp.phonebook.interfaces.TaskCompleteListener;
 import ua.testapp.phonebook.model.Contact;
 import ua.testapp.phonebook.model.Phone;
@@ -60,6 +56,31 @@ public class ContactManager {
         });
     }
 
+
+    public void updateContact(Contact contact, TaskCompleteListener taskCompleteListener){
+        mContactRepository.updateContact(contact, new ContactDataSource.ActionContactCallback() {
+            @Override
+            public void onSuccessAction(Contact contact) {
+                mPhoneRepository.updatePhone(contact.getPhoneList().get(0), new PhoneDataSource.ActionPhoneCallback() {
+                    @Override
+                    public void onSuccessAction(Phone phone) {
+                        taskCompleteListener.onTaskComplete(true);
+
+                    }
+
+                    @Override
+                    public void onDataNotAvailable() {
+                        taskCompleteListener.onTaskComplete(false);
+                    }
+                });
+            }
+
+            @Override
+            public void onDataNotAvailable() {
+                taskCompleteListener.onTaskComplete(false);
+            }
+        });
+    }
 
     public void removeContacts(List<Contact> contactList, TaskCompleteListener taskCompleteListener) {
         for (Contact contactTemp : contactList) {
