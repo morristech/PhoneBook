@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/alexey/work/PhoneBook/app/src/main/shaders"/></dataSet><dataSet config="production"><source path="/home/alexey/work/PhoneBook/app/src/production/shaders"/></dataSet><dataSet config="debug"><source path="/home/alexey/work/PhoneBook/app/src/debug/shaders"/></dataSet><dataSet config="productionDebug"><source path="/home/alexey/work/PhoneBook/app/src/productionDebug/shaders"/></dataSet></merger>

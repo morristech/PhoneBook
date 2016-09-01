@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/phone_book_tool_bar" />
+
+    <EditText
+        android:id="@+id/et_name"
+        style="@style/PhoneBook.EditText"
+        android:layout_marginTop="@dimen/size_20dp"
+        android:drawableLeft="@drawable/ic_user"
+        android:hint="@string/name_hint" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_1dp"
+        android:layout_marginBottom="@dimen/size_20dp"
+        android:layout_marginLeft="@dimen/size_10dp"
+        android:layout_marginRight="@dimen/size_10dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <EditText
+        android:id="@+id/et_surname"
+        style="@style/PhoneBook.EditText"
+        android:drawableLeft="@drawable/ic_user"
+        android:hint="@string/surname_hint" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_1dp"
+        android:layout_marginBottom="@dimen/size_20dp"
+        android:layout_marginLeft="@dimen/size_10dp"
+        android:layout_marginRight="@dimen/size_10dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/id_tv_phone_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:background="@null"
+            android:text="+38 "
+            android:gravity="center"
+            android:drawableLeft="@drawable/ic_perm_phone"
+            android:drawablePadding="@dimen/size_5dp"
+            android:layout_marginLeft="@dimen/size_10dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/input_text_size" />
+
+        <ua.testapp.phonebook.ui.customView.EditTextSimpleError
+            android:id="@+id/et_phone_number"
+            style="@style/PhoneBook.EditText"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="0dp"
+            android:paddingLeft="0dp"
+            android:hint="@string/phone_number_hint"
+            android:inputType="phone"
+            android:maxLength="15" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_1dp"
+        android:layout_marginBottom="@dimen/size_20dp"
+        android:layout_marginLeft="@dimen/size_10dp"
+        android:layout_marginRight="@dimen/size_10dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_margin="@dimen/fab_margin"
+            android:src="@drawable/ic_done"
+            app:backgroundTint="@color/colorPrimary"
+            app:elevation="@dimen/elevation_5dp" />
+    </FrameLayout>
+
+</LinearLayout>

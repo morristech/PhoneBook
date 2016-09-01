@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/alexey/work/PhoneBook/app/build/intermediates/res/merged/production/debug/layout-v14/md_stub_progress_indeterminate.xml",
+        "source": "/home/alexey/work/PhoneBook/app/build/intermediates/exploded-aar/com.github.afollestad.material-dialogs/core/0.8.5.1/res/layout-v14/md_stub_progress_indeterminate.xml"
+    },
+    {
+        "merged": "/home/alexey/work/PhoneBook/app/build/intermediates/res/merged/production/debug/layout-v14/md_stub_progress_indeterminate_horizontal.xml",
+        "source": "/home/alexey/work/PhoneBook/app/build/intermediates/exploded-aar/com.github.afollestad.material-dialogs/core/0.8.5.1/res/layout-v14/md_stub_progress_indeterminate_horizontal.xml"
+    },
+    {
+        "merged": "/home/alexey/work/PhoneBook/app/build/intermediates/res/merged/production/debug/layout-v14/md_stub_progress.xml",
+        "source": "/home/alexey/work/PhoneBook/app/build/intermediates/exploded-aar/com.github.afollestad.material-dialogs/core/0.8.5.1/res/layout-v14/md_stub_progress.xml"
+    }
+]

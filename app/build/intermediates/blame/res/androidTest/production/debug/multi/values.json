@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/home/alexey/work/PhoneBook/app/build/intermediates/res/merged/androidTest/production/debug/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 67,
+                    "endOffset": 118
+                },
+                "from": {
+                    "file": "/home/alexey/work/PhoneBook/app/build/generated/res/resValues/androidTest/production/debug/values/generated.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 166,
+                        "endColumn": 67,
+                        "endOffset": 229
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/alexey/work/PhoneBook/app/build/intermediates/res/merged/production/debug/menu/main_menu.xml",
+        "source": "/home/alexey/work/PhoneBook/app/src/main/res/menu/main_menu.xml"
+    },
+    {
+        "merged": "/home/alexey/work/PhoneBook/app/build/intermediates/res/merged/production/debug/menu/create_contact_menu.xml",
+        "source": "/home/alexey/work/PhoneBook/app/src/main/res/menu/create_contact_menu.xml"
+    },
+    {
+        "merged": "/home/alexey/work/PhoneBook/app/build/intermediates/res/merged/production/debug/menu/drawer_menu.xml",
+        "source": "/home/alexey/work/PhoneBook/app/src/main/res/menu/drawer_menu.xml"
+    },
+    {
+        "merged": "/home/alexey/work/PhoneBook/app/build/intermediates/res/merged/production/debug/menu/delete_menu.xml",
+        "source": "/home/alexey/work/PhoneBook/app/src/main/res/menu/delete_menu.xml"
+    }
+]

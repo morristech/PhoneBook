@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_login_size"
+        android:background="@drawable/side_nav_bar">
+        <TextView
+            android:id="@+id/tv_logo"
+            style="@style/PhoneBook.TextView.Logo"
+            android:text="@string/phone_book"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/ll_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size_30dp"
+            android:orientation="vertical">
+
+            <EditText
+                style="@style/PhoneBook.EditText"
+                android:id="@+id/et_login"
+                android:paddingLeft="@dimen/size_5dp"
+                android:hint="@string/login_hint" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_1dp"
+                android:layout_marginLeft="@dimen/size_10dp"
+                android:layout_marginRight="@dimen/size_10dp"
+                android:layout_marginBottom="@dimen/size_20dp"
+                android:background="@color/colorPrimaryDark"/>
+
+            <EditText
+                style="@style/PhoneBook.EditText"
+                android:id="@+id/et_pass"
+                android:hint="@string/password_hint"
+                android:paddingLeft="@dimen/size_5dp"
+                android:inputType="textPassword" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_1dp"
+                android:layout_marginLeft="@dimen/size_10dp"
+                android:layout_marginRight="@dimen/size_10dp"
+                android:layout_marginBottom="@dimen/size_20dp"
+                android:background="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:id="@+id/tv_sign_in"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/bt_login_height"
+                android:background="@drawable/tv_green_border"
+                android:gravity="center"
+                android:clickable="true"
+                android:text="@string/sign_in"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/sign_in_size" />
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

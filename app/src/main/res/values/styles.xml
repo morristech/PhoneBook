@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="PhoneBook.TextView.Logo" parent="android:Widget.Holo.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/logo_text_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="PhoneBook.EditText" parent="android:Widget.Holo.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/input_text_size</item>
+        <item name="android:textColorHint">@color/light_grey_color</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:lines">1</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:paddingRight">@dimen/size_10dp</item>
+        <item name="android:layout_marginLeft">@dimen/size_10dp</item>
+        <item name="android:layout_marginRight">@dimen/size_10dp</item>
+        <item name="android:drawablePadding">@dimen/size_5dp</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="PhoneBook.TextView" parent="android:Widget.Holo.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lines">1</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:paddingRight">@dimen/size_3dp</item>
+        <item name="android:paddingLeft">@dimen/size_3dp</item>
+        <item name="android:background">@null</item>
+    </style>
+
+</resources>

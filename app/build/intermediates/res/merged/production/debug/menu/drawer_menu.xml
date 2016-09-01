@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_camera_enhance"
+            android:title="Camera" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_perm_media"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/nav_sync"
+            android:icon="@drawable/ic_backup"
+            android:title="Sync with cloud" />
+
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_exit"
+            android:title="Exit" />
+    </group>
+
+</menu>
