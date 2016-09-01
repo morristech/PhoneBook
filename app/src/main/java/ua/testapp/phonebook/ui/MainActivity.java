@@ -31,10 +31,12 @@ import java.util.List;
 import javax.inject.Inject;
 import butterknife.BindView;
 import butterknife.OnClick;
+import de.greenrobot.event.EventBus;
 import ua.testapp.phonebook.PhoneBookApplication;
 import ua.testapp.phonebook.R;
 import ua.testapp.phonebook.constants.IntentData;
 import ua.testapp.phonebook.constants.LoaderIds;
+import ua.testapp.phonebook.events.LoadContactsEvent;
 import ua.testapp.phonebook.interfaces.ContactActionListener;
 import ua.testapp.phonebook.interfaces.TaskCompleteListener;
 import ua.testapp.phonebook.loader.ContactsLoader;
@@ -61,7 +63,7 @@ public class MainActivity extends AbstractBaseActivity implements NavigationView
     @BindView(R.id.nav_view)
     NavigationView navigationView;
 
-   @BindView(R.id.swipe_container)
+    @BindView(R.id.swipe_container)
     SwipeRefreshLayout swipeRefreshLayout;
 
     @BindView(R.id.rv_contacts)
@@ -177,7 +179,10 @@ public class MainActivity extends AbstractBaseActivity implements NavigationView
                 R.color.colorPrimaryDark,
                 R.color.colorPrimaryDark);
 
-        swipeRefreshLayout.setOnRefreshListener(() -> swipeRefreshLayout.setRefreshing(false)); //TODO EventBus.getDefault().post(LoadContactsEvent.INSTANCE)
+        swipeRefreshLayout.setOnRefreshListener(() -> {
+            actionClearSelectedPhotos();
+            EventBus.getDefault().post(LoadContactsEvent.INSTANCE);
+        } );
 
         /** load contacts */
         getSupportLoaderManager().initLoader(LoaderIds.LOADER_ID__CONTACTS, null, new LoaderManager.LoaderCallbacks<List<Contact>>() {
@@ -305,6 +310,7 @@ public class MainActivity extends AbstractBaseActivity implements NavigationView
     }
 
     private void actionAfterLoadContacts(List<Contact> contactList) {
+
         mContactAdapter.setContacts(contactList);
 
         swipeRefreshLayout.setRefreshing(false);

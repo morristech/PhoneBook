@@ -87,8 +87,9 @@ public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.ViewHold
         //load image
         if (!TextUtils.isEmpty(vh.mContact.getPhotoPath())) {
             ImageLoaderHelper.loadAvatar(mContext, mFileUtil.getFileByFileName(vh.mContact.getPhotoPath()), vh.ivAvatar);
+        } else {
+            vh.ivAvatar.setImageResource(R.drawable.ic_account_circle);
         }
-
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener, View.OnLongClickListener {
