@@ -451,6 +451,7 @@
     <string name="name_hint">Name</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="no">no</string>
     <string name="okay">Okay</string>
     <string name="password_hint">Password</string>
     <string name="phone_book">PhoneBook</string>

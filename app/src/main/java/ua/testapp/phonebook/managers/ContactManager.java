@@ -1,5 +1,7 @@
 package ua.testapp.phonebook.managers;
 
+import android.util.Log;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,10 +9,12 @@ import javax.inject.Inject;
 
 import ua.testapp.phonebook.interfaces.TaskCompleteListener;
 import ua.testapp.phonebook.model.Contact;
+import ua.testapp.phonebook.model.Phone;
 import ua.testapp.phonebook.repositories.contact.ContactCriteria;
 import ua.testapp.phonebook.repositories.contact.ContactDataSource;
 import ua.testapp.phonebook.repositories.contact.ContactRepository;
 import ua.testapp.phonebook.repositories.phone.PhoneCriteria;
+import ua.testapp.phonebook.repositories.phone.PhoneDataSource;
 import ua.testapp.phonebook.repositories.phone.PhoneRepository;
 
 /**
@@ -57,4 +61,30 @@ public class ContactManager {
     }
 
 
+    public void removeContacts(List<Contact> contactList, TaskCompleteListener taskCompleteListener) {
+        for (Contact contactTemp : contactList) {
+            mContactRepository.deleteContact(contactTemp, new ContactDataSource.ActionContactCallback() {
+                @Override
+                public void onSuccessAction(Contact contact) {
+                    mPhoneRepository.deletePhone(contactTemp.getPhoneList().get(0), new PhoneDataSource.ActionPhoneCallback() {
+                        @Override
+                        public void onSuccessAction(Phone phone) {
+                        }
+
+                        @Override
+                        public void onDataNotAvailable() {
+
+                        }
+                    });
+                }
+
+                @Override
+                public void onDataNotAvailable() {
+
+                }
+            });
+        }
+
+        taskCompleteListener.onTaskComplete(true);
+    }
 }

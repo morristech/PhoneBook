@@ -3252,18 +3252,19 @@ containing a value of this type.
         public static final int name_hint=0x7f060032;
         public static final int navigation_drawer_close=0x7f060033;
         public static final int navigation_drawer_open=0x7f060034;
-        public static final int okay=0x7f060035;
-        public static final int password_hint=0x7f060036;
-        public static final int phone_book=0x7f060037;
-        public static final int phone_hint=0x7f060038;
-        public static final int phone_number_hint=0x7f060039;
-        public static final int position_hint=0x7f06003a;
-        public static final int progress_dialog_message__wait=0x7f06003b;
-        public static final int settings=0x7f06003c;
-        public static final int sign_in=0x7f06003d;
+        public static final int no=0x7f060035;
+        public static final int okay=0x7f060036;
+        public static final int password_hint=0x7f060037;
+        public static final int phone_book=0x7f060038;
+        public static final int phone_hint=0x7f060039;
+        public static final int phone_number_hint=0x7f06003a;
+        public static final int position_hint=0x7f06003b;
+        public static final int progress_dialog_message__wait=0x7f06003c;
+        public static final int settings=0x7f06003d;
+        public static final int sign_in=0x7f06003e;
         public static final int status_bar_notification_info_overflow=0x7f060013;
-        public static final int surname_hint=0x7f06003e;
-        public static final int title__contact_remove=0x7f06003f;
+        public static final int surname_hint=0x7f06003f;
+        public static final int title__contact_remove=0x7f060040;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f09008d;

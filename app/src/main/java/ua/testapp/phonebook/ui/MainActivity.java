@@ -40,6 +40,7 @@ import ua.testapp.phonebook.events.LoadContactsEvent;
 import ua.testapp.phonebook.interfaces.ContactActionListener;
 import ua.testapp.phonebook.interfaces.TaskCompleteListener;
 import ua.testapp.phonebook.loader.ContactsLoader;
+import ua.testapp.phonebook.managers.ContactManager;
 import ua.testapp.phonebook.model.Contact;
 import ua.testapp.phonebook.ui.adapters.ContactAdapter;
 import ua.testapp.phonebook.ui.decorators.SpaceItemDecoration;
@@ -95,12 +96,14 @@ public class MainActivity extends AbstractBaseActivity implements NavigationView
     @Inject
     DialogHelper mDialogHelper;
 
+    @Inject
+    ContactManager mContactManager;
+
     private boolean mIsGrantedPermission;
     private ContactAdapter mContactAdapter;
     private Menu mMenu;
     private boolean mIsSelectedModOn;
     private List<Contact> mSelectedContacts = new ArrayList<>();
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -278,9 +281,9 @@ public class MainActivity extends AbstractBaseActivity implements NavigationView
         int id = item.getItemId();
 
         if (id == R.id.action_search) {
-
+            // TODO ACTION SEARCH
         } else if (id == R.id.action_remove) {
-
+            actionRemoveContacts();
         }
 
         return super.onOptionsItemSelected(item);
@@ -361,6 +364,41 @@ public class MainActivity extends AbstractBaseActivity implements NavigationView
 
     private void actionSyncContacts() {
         UIHelper.showSnackbar(drawer, getString(R.string.error_sync_contacts));
+    }
+
+    private void actionRemoveContacts() {
+        mDialogHelper.showRemoveDialog(new TaskCompleteListener<Boolean>() {
+            @Override
+            public void onTaskComplete(Boolean result) {
+                if (result) {
+                    removeContacts();
+                } else {
+                    actionClearSelectedPhotos();
+                }
+            }
+
+            @Override
+            public void onFail() {
+
+            }
+        });
+    }
+
+    private void removeContacts() {
+        mContactManager.removeContacts(mSelectedContacts, new TaskCompleteListener<Boolean>() {
+            @Override
+            public void onTaskComplete(Boolean result) {
+                if (result) {
+                    actionClearSelectedPhotos();
+                    EventBus.getDefault().post(LoadContactsEvent.INSTANCE);
+                }
+            }
+
+            @Override
+            public void onFail() {
+
+            }
+        });
     }
 
     private void actionMakePhotoCamera() {

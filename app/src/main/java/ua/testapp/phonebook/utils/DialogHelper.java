@@ -50,10 +50,12 @@ public class DialogHelper {
         MaterialDialog.Builder adBuilder = new MaterialDialog.Builder(mContext)
                 .title(mContext.getString(R.string.title__contact_remove))
                 .positiveText(mContext.getString(R.string.okay))
-                .positiveColorRes(R.color.colorPrimary);
+                .negativeText(mContext.getString(R.string.no))
+                .positiveColorRes(R.color.colorPrimary)
+                .negativeColorRes(R.color.colorPrimaryDark);
         adBuilder.content(mContext.getString(R.string.are_you_sure));
         adBuilder.onPositive((dialog, which) -> taskCompleteListener.onTaskComplete(true));
-
+        adBuilder.onNegative((dialog, which) -> taskCompleteListener.onTaskComplete(false));
         adBuilder.show();
     }
 

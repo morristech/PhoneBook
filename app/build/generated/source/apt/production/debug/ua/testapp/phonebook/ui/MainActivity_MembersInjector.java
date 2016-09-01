@@ -3,6 +3,7 @@ package ua.testapp.phonebook.ui;
 import dagger.MembersInjector;
 import javax.annotation.Generated;
 import javax.inject.Provider;
+import ua.testapp.phonebook.managers.ContactManager;
 import ua.testapp.phonebook.utils.BitmapUtil;
 import ua.testapp.phonebook.utils.DialogHelper;
 import ua.testapp.phonebook.utils.ExternalStorageUtil;
@@ -21,11 +22,14 @@ public final class MainActivity_MembersInjector implements MembersInjector<MainA
 
   private final Provider<DialogHelper> mDialogHelperProvider;
 
+  private final Provider<ContactManager> mContactManagerProvider;
+
   public MainActivity_MembersInjector(
       Provider<FileUtil> mFileUtilProvider,
       Provider<BitmapUtil> mBitmapUtilProvider,
       Provider<ExternalStorageUtil> mExternalStorageUtilProvider,
-      Provider<DialogHelper> mDialogHelperProvider) {
+      Provider<DialogHelper> mDialogHelperProvider,
+      Provider<ContactManager> mContactManagerProvider) {
     assert mFileUtilProvider != null;
     this.mFileUtilProvider = mFileUtilProvider;
     assert mBitmapUtilProvider != null;
@@ -34,18 +38,22 @@ public final class MainActivity_MembersInjector implements MembersInjector<MainA
     this.mExternalStorageUtilProvider = mExternalStorageUtilProvider;
     assert mDialogHelperProvider != null;
     this.mDialogHelperProvider = mDialogHelperProvider;
+    assert mContactManagerProvider != null;
+    this.mContactManagerProvider = mContactManagerProvider;
   }
 
   public static MembersInjector<MainActivity> create(
       Provider<FileUtil> mFileUtilProvider,
       Provider<BitmapUtil> mBitmapUtilProvider,
       Provider<ExternalStorageUtil> mExternalStorageUtilProvider,
-      Provider<DialogHelper> mDialogHelperProvider) {
+      Provider<DialogHelper> mDialogHelperProvider,
+      Provider<ContactManager> mContactManagerProvider) {
     return new MainActivity_MembersInjector(
         mFileUtilProvider,
         mBitmapUtilProvider,
         mExternalStorageUtilProvider,
-        mDialogHelperProvider);
+        mDialogHelperProvider,
+        mContactManagerProvider);
   }
 
   @Override
@@ -57,6 +65,7 @@ public final class MainActivity_MembersInjector implements MembersInjector<MainA
     instance.mBitmapUtil = mBitmapUtilProvider.get();
     instance.mExternalStorageUtil = mExternalStorageUtilProvider.get();
     instance.mDialogHelper = mDialogHelperProvider.get();
+    instance.mContactManager = mContactManagerProvider.get();
   }
 
   public static void injectMFileUtil(MainActivity instance, Provider<FileUtil> mFileUtilProvider) {
@@ -76,5 +85,10 @@ public final class MainActivity_MembersInjector implements MembersInjector<MainA
   public static void injectMDialogHelper(
       MainActivity instance, Provider<DialogHelper> mDialogHelperProvider) {
     instance.mDialogHelper = mDialogHelperProvider.get();
+  }
+
+  public static void injectMContactManager(
+      MainActivity instance, Provider<ContactManager> mContactManagerProvider) {
+    instance.mContactManager = mContactManagerProvider.get();
   }
 }

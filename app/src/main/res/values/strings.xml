@@ -31,4 +31,5 @@
     <string name="action_remove">remove</string>
     <string name="title__contact_remove">Remove contacts</string>
     <string name="are_you_sure">Are you sure ?</string>
+    <string name="no">no</string>
 </resources>

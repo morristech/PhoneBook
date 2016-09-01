@@ -10,21 +10,134 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c87af73b-c4cd-4437-b38c-9fd70af57698" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/production/debug/reload-changes.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-production-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-production-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/production/debug/ua/testapp/phonebook/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/production/debug/ua/testapp/phonebook/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/production/debug/ua/testapp/phonebook/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/production/debug/ua/testapp/phonebook/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/production/debug/ua/testapp/phonebook/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/production/debug/ua/testapp/phonebook/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/production/debug/ua/testapp/phonebook/R.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/production/debug/ua/testapp/phonebook/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/production/debug/ua/testapp/phonebook/component/DaggerGeneralComponent$Builder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/production/debug/ua/testapp/phonebook/component/DaggerGeneralComponent$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/production/debug/ua/testapp/phonebook/component/DaggerGeneralComponent.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/production/debug/ua/testapp/phonebook/component/DaggerGeneralComponent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/production/debug/ua/testapp/phonebook/managers/ContactManager$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/production/debug/ua/testapp/phonebook/managers/ContactManager$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/production/debug/ua/testapp/phonebook/managers/ContactManager.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/production/debug/ua/testapp/phonebook/managers/ContactManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/production/debug/ua/testapp/phonebook/ui/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/production/debug/ua/testapp/phonebook/ui/MainActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/production/debug/ua/testapp/phonebook/ui/MainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/production/debug/ua/testapp/phonebook/ui/MainActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/production/debug/ua/testapp/phonebook/ui/MainActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/production/debug/ua/testapp/phonebook/ui/MainActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/production/debug/ua/testapp/phonebook/ui/MainActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/production/debug/ua/testapp/phonebook/ui/MainActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/production/debug/ua/testapp/phonebook/ui/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/production/debug/ua/testapp/phonebook/ui/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/production/debug/ua/testapp/phonebook/ui/MainActivity_MembersInjector.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/production/debug/ua/testapp/phonebook/ui/MainActivity_MembersInjector.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/production/debug/ua/testapp/phonebook/ui/SettingsActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/production/debug/ua/testapp/phonebook/ui/SettingsActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/production/debug/ua/testapp/phonebook/ui/SplashActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/production/debug/ua/testapp/phonebook/ui/SplashActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/production/debug/ua/testapp/phonebook/ui/adapters/ContactAdapter$ViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/production/debug/ua/testapp/phonebook/ui/adapters/ContactAdapter$ViewHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/production/debug/ua/testapp/phonebook/utils/DialogHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/production/debug/ua/testapp/phonebook/utils/DialogHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/production/debug/ua/testapp/phonebook/utils/UIHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/production/debug/ua/testapp/phonebook/utils/UIHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/production/debug/ua/testapp/phonebook/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/production/debug/ua/testapp/phonebook/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/production/debug/ua/testapp/phonebook/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/production/debug/ua/testapp/phonebook/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/production/debug/ua/testapp/phonebook/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/production/debug/ua/testapp/phonebook/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/production/debug/ua/testapp/phonebook/R.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/production/debug/ua/testapp/phonebook/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/production/debug/ua/testapp/phonebook/component/DaggerGeneralComponent$Builder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/production/debug/ua/testapp/phonebook/component/DaggerGeneralComponent$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/production/debug/ua/testapp/phonebook/component/DaggerGeneralComponent.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/production/debug/ua/testapp/phonebook/component/DaggerGeneralComponent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/production/debug/ua/testapp/phonebook/managers/ContactManager$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/production/debug/ua/testapp/phonebook/managers/ContactManager$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/production/debug/ua/testapp/phonebook/managers/ContactManager.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/production/debug/ua/testapp/phonebook/managers/ContactManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/production/debug/ua/testapp/phonebook/ui/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/production/debug/ua/testapp/phonebook/ui/MainActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/production/debug/ua/testapp/phonebook/ui/MainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/production/debug/ua/testapp/phonebook/ui/MainActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/production/debug/ua/testapp/phonebook/ui/MainActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/production/debug/ua/testapp/phonebook/ui/MainActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/production/debug/ua/testapp/phonebook/ui/MainActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/production/debug/ua/testapp/phonebook/ui/MainActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/production/debug/ua/testapp/phonebook/ui/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/production/debug/ua/testapp/phonebook/ui/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/production/debug/ua/testapp/phonebook/ui/MainActivity_MembersInjector.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/production/debug/ua/testapp/phonebook/ui/MainActivity_MembersInjector.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/production/debug/ua/testapp/phonebook/ui/SettingsActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/production/debug/ua/testapp/phonebook/ui/SettingsActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/production/debug/ua/testapp/phonebook/ui/SplashActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/production/debug/ua/testapp/phonebook/ui/SplashActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/production/debug/ua/testapp/phonebook/ui/adapters/ContactAdapter$ViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/production/debug/ua/testapp/phonebook/ui/adapters/ContactAdapter$ViewHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/production/debug/ua/testapp/phonebook/utils/DialogHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/production/debug/ua/testapp/phonebook/utils/DialogHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/production/debug/ua/testapp/phonebook/utils/UIHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/production/debug/ua/testapp/phonebook/utils/UIHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/production/debug/classes.zip" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/production/debug/classes.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/production/debug/resources.zip" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/production/debug/resources.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-production-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-production-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/production/debug/folders/1000/5/slice_3/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/production/debug/folders/1000/5/slice_3/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/production/debug/folders/1000/5/slice_4/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/production/debug/folders/1000/5/slice_4/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/production/debug/folders/1000/5/slice_6/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/production/debug/folders/1000/5/slice_6/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/production/debug/folders/1000/5/slice_9/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/production/debug/folders/1000/5/slice_9/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/1/5/main/ua/testapp/phonebook/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/1/5/main/ua/testapp/phonebook/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/1/5/main/ua/testapp/phonebook/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/1/5/main/ua/testapp/phonebook/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/1/5/main/ua/testapp/phonebook/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/1/5/main/ua/testapp/phonebook/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/1/5/main/ua/testapp/phonebook/R.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/1/5/main/ua/testapp/phonebook/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/1/5/main/ua/testapp/phonebook/component/DaggerGeneralComponent$Builder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/1/5/main/ua/testapp/phonebook/component/DaggerGeneralComponent$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/1/5/main/ua/testapp/phonebook/component/DaggerGeneralComponent.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/1/5/main/ua/testapp/phonebook/component/DaggerGeneralComponent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/1/5/main/ua/testapp/phonebook/managers/ContactManager$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/1/5/main/ua/testapp/phonebook/managers/ContactManager$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/1/5/main/ua/testapp/phonebook/managers/ContactManager.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/1/5/main/ua/testapp/phonebook/managers/ContactManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/1/5/main/ua/testapp/phonebook/ui/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/1/5/main/ua/testapp/phonebook/ui/MainActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/1/5/main/ua/testapp/phonebook/ui/MainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/1/5/main/ua/testapp/phonebook/ui/MainActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/1/5/main/ua/testapp/phonebook/ui/MainActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/1/5/main/ua/testapp/phonebook/ui/MainActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/1/5/main/ua/testapp/phonebook/ui/MainActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/1/5/main/ua/testapp/phonebook/ui/MainActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/1/5/main/ua/testapp/phonebook/ui/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/1/5/main/ua/testapp/phonebook/ui/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/1/5/main/ua/testapp/phonebook/ui/MainActivity_MembersInjector.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/1/5/main/ua/testapp/phonebook/ui/MainActivity_MembersInjector.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/1/5/main/ua/testapp/phonebook/ui/SettingsActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/1/5/main/ua/testapp/phonebook/ui/SettingsActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/1/5/main/ua/testapp/phonebook/ui/SplashActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/1/5/main/ua/testapp/phonebook/ui/SplashActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/1/5/main/ua/testapp/phonebook/ui/adapters/ContactAdapter$ViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/1/5/main/ua/testapp/phonebook/ui/adapters/ContactAdapter$ViewHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/1/5/main/ua/testapp/phonebook/utils/DialogHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/1/5/main/ua/testapp/phonebook/utils/DialogHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/1/5/main/ua/testapp/phonebook/utils/UIHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/1/5/main/ua/testapp/phonebook/utils/UIHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/4000/5/enhanced/ua/testapp/phonebook/ui/MainActivity$3$override.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/4000/5/enhanced/ua/testapp/phonebook/ui/MainActivity$3$override.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/4000/5/enhanced/ua/testapp/phonebook/ui/MainActivity$4$override.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/4000/5/enhanced/ua/testapp/phonebook/ui/MainActivity$4$override.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/4000/5/enhanced/ua/testapp/phonebook/ui/MainActivity$override.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/production/debug/folders/4000/5/enhanced/ua/testapp/phonebook/ui/MainActivity$override.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/production/debug/folders/1/5/slice_3/ua/testapp/phonebook/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/production/debug/folders/1/5/slice_3/ua/testapp/phonebook/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/production/debug/folders/1/5/slice_3/ua/testapp/phonebook/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/production/debug/folders/1/5/slice_3/ua/testapp/phonebook/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/production/debug/folders/1/5/slice_3/ua/testapp/phonebook/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/production/debug/folders/1/5/slice_3/ua/testapp/phonebook/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/production/debug/folders/1/5/slice_3/ua/testapp/phonebook/R.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/production/debug/folders/1/5/slice_3/ua/testapp/phonebook/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/production/debug/folders/1/5/slice_3/ua/testapp/phonebook/component/DaggerGeneralComponent$Builder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/production/debug/folders/1/5/slice_3/ua/testapp/phonebook/component/DaggerGeneralComponent$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/production/debug/folders/1/5/slice_3/ua/testapp/phonebook/component/DaggerGeneralComponent.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/production/debug/folders/1/5/slice_3/ua/testapp/phonebook/component/DaggerGeneralComponent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/production/debug/folders/1/5/slice_3/ua/testapp/phonebook/utils/DialogHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/production/debug/folders/1/5/slice_3/ua/testapp/phonebook/utils/DialogHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/production/debug/folders/1/5/slice_3/ua/testapp/phonebook/utils/UIHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/production/debug/folders/1/5/slice_3/ua/testapp/phonebook/utils/UIHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/production/debug/folders/1/5/slice_4/ua/testapp/phonebook/managers/ContactManager$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/production/debug/folders/1/5/slice_4/ua/testapp/phonebook/managers/ContactManager$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/production/debug/folders/1/5/slice_4/ua/testapp/phonebook/managers/ContactManager.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/production/debug/folders/1/5/slice_4/ua/testapp/phonebook/managers/ContactManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/production/debug/folders/1/5/slice_6/ua/testapp/phonebook/ui/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/production/debug/folders/1/5/slice_6/ua/testapp/phonebook/ui/MainActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/production/debug/folders/1/5/slice_6/ua/testapp/phonebook/ui/MainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/production/debug/folders/1/5/slice_6/ua/testapp/phonebook/ui/MainActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/production/debug/folders/1/5/slice_6/ua/testapp/phonebook/ui/MainActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/production/debug/folders/1/5/slice_6/ua/testapp/phonebook/ui/MainActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/production/debug/folders/1/5/slice_6/ua/testapp/phonebook/ui/MainActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/production/debug/folders/1/5/slice_6/ua/testapp/phonebook/ui/MainActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/production/debug/folders/1/5/slice_6/ua/testapp/phonebook/ui/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/production/debug/folders/1/5/slice_6/ua/testapp/phonebook/ui/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/production/debug/folders/1/5/slice_6/ua/testapp/phonebook/ui/MainActivity_MembersInjector.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/production/debug/folders/1/5/slice_6/ua/testapp/phonebook/ui/MainActivity_MembersInjector.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/production/debug/folders/1/5/slice_6/ua/testapp/phonebook/ui/SettingsActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/production/debug/folders/1/5/slice_6/ua/testapp/phonebook/ui/SettingsActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/production/debug/folders/1/5/slice_6/ua/testapp/phonebook/ui/SplashActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/production/debug/folders/1/5/slice_6/ua/testapp/phonebook/ui/SplashActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/production/debug/folders/1/5/slice_9/ua/testapp/phonebook/ui/adapters/ContactAdapter$ViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/production/debug/folders/1/5/slice_9/ua/testapp/phonebook/ui/adapters/ContactAdapter$ViewHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-production-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-production-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-production-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-production-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/retrolambda/productionDebug/ua/testapp/phonebook/R$string.class" afterPath="$PROJECT_DIR$/app/build/retrolambda/productionDebug/ua/testapp/phonebook/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/retrolambda/productionDebug/ua/testapp/phonebook/R$style.class" afterPath="$PROJECT_DIR$/app/build/retrolambda/productionDebug/ua/testapp/phonebook/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/retrolambda/productionDebug/ua/testapp/phonebook/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/retrolambda/productionDebug/ua/testapp/phonebook/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/retrolambda/productionDebug/ua/testapp/phonebook/R.class" afterPath="$PROJECT_DIR$/app/build/retrolambda/productionDebug/ua/testapp/phonebook/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/retrolambda/productionDebug/ua/testapp/phonebook/component/DaggerGeneralComponent$Builder.class" afterPath="$PROJECT_DIR$/app/build/retrolambda/productionDebug/ua/testapp/phonebook/component/DaggerGeneralComponent$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/retrolambda/productionDebug/ua/testapp/phonebook/component/DaggerGeneralComponent.class" afterPath="$PROJECT_DIR$/app/build/retrolambda/productionDebug/ua/testapp/phonebook/component/DaggerGeneralComponent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/retrolambda/productionDebug/ua/testapp/phonebook/managers/ContactManager$1.class" afterPath="$PROJECT_DIR$/app/build/retrolambda/productionDebug/ua/testapp/phonebook/managers/ContactManager$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/retrolambda/productionDebug/ua/testapp/phonebook/managers/ContactManager.class" afterPath="$PROJECT_DIR$/app/build/retrolambda/productionDebug/ua/testapp/phonebook/managers/ContactManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/retrolambda/productionDebug/ua/testapp/phonebook/ui/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/retrolambda/productionDebug/ua/testapp/phonebook/ui/MainActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/retrolambda/productionDebug/ua/testapp/phonebook/ui/MainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/retrolambda/productionDebug/ua/testapp/phonebook/ui/MainActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/retrolambda/productionDebug/ua/testapp/phonebook/ui/MainActivity$3.class" afterPath="$PROJECT_DIR$/app/build/retrolambda/productionDebug/ua/testapp/phonebook/ui/MainActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/retrolambda/productionDebug/ua/testapp/phonebook/ui/MainActivity$4.class" afterPath="$PROJECT_DIR$/app/build/retrolambda/productionDebug/ua/testapp/phonebook/ui/MainActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/retrolambda/productionDebug/ua/testapp/phonebook/ui/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/retrolambda/productionDebug/ua/testapp/phonebook/ui/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/retrolambda/productionDebug/ua/testapp/phonebook/ui/MainActivity_MembersInjector.class" afterPath="$PROJECT_DIR$/app/build/retrolambda/productionDebug/ua/testapp/phonebook/ui/MainActivity_MembersInjector.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/retrolambda/productionDebug/ua/testapp/phonebook/ui/SettingsActivity.class" afterPath="$PROJECT_DIR$/app/build/retrolambda/productionDebug/ua/testapp/phonebook/ui/SettingsActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/retrolambda/productionDebug/ua/testapp/phonebook/ui/SplashActivity.class" afterPath="$PROJECT_DIR$/app/build/retrolambda/productionDebug/ua/testapp/phonebook/ui/SplashActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/retrolambda/productionDebug/ua/testapp/phonebook/ui/adapters/ContactAdapter$ViewHolder.class" afterPath="$PROJECT_DIR$/app/build/retrolambda/productionDebug/ua/testapp/phonebook/ui/adapters/ContactAdapter$ViewHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/retrolambda/productionDebug/ua/testapp/phonebook/utils/DialogHelper.class" afterPath="$PROJECT_DIR$/app/build/retrolambda/productionDebug/ua/testapp/phonebook/utils/DialogHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/retrolambda/productionDebug/ua/testapp/phonebook/utils/UIHelper.class" afterPath="$PROJECT_DIR$/app/build/retrolambda/productionDebug/ua/testapp/phonebook/utils/UIHelper.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/production/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/production/debug/single/drawable-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/production/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/production/debug/single/drawable-mdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/production/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/production/debug/single/drawable-xxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/production/debug/single/layout.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/production/debug/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/apt/production/debug/ua/testapp/phonebook/component/DaggerGeneralComponent.java" afterPath="$PROJECT_DIR$/app/build/generated/source/apt/production/debug/ua/testapp/phonebook/component/DaggerGeneralComponent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/apt/production/debug/ua/testapp/phonebook/ui/MainActivity_MembersInjector.java" afterPath="$PROJECT_DIR$/app/build/generated/source/apt/production/debug/ua/testapp/phonebook/ui/MainActivity_MembersInjector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/production/debug/ua/testapp/phonebook/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/production/debug/ua/testapp/phonebook/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/production/debug/multi/values.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/production/debug/multi/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeProductionDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeProductionDebugResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/production/debug/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/production/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/restart-dex/production/debug/build-info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/restart-dex/production/debug/build-info.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/production/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/production/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/production/debug/folders/1/5/slice_6/buildId.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/production/debug/folders/1/5/slice_6/buildId.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ua/testapp/phonebook/managers/ContactManager.java" afterPath="$PROJECT_DIR$/app/src/main/java/ua/testapp/phonebook/managers/ContactManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ua/testapp/phonebook/ui/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/ua/testapp/phonebook/ui/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ua/testapp/phonebook/ui/adapters/ContactAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/ua/testapp/phonebook/ui/adapters/ContactAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ua/testapp/phonebook/utils/DialogHelper.java" afterPath="$PROJECT_DIR$/app/src/main/java/ua/testapp/phonebook/utils/DialogHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
     </list>
     <ignored path="PhoneBook.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,22 +161,18 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/testapp/phonebook/ui/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39831933">
-              <caret line="183" column="51" selection-start-line="183" selection-start-column="51" selection-end-line="183" selection-end-column="51" />
+            <state vertical-scroll-proportion="3.6907563">
+              <caret line="495" column="35" selection-start-line="495" selection-start-column="35" selection-end-line="495" selection-end-column="35" />
               <folding>
-                <element signature="e#6905#6906#0" expanded="true" />
-                <element signature="e#6950#6951#0" expanded="true" />
+                <element signature="e#4274#4302#0" expanded="true" />
+                <element signature="e#4627#4658#0" expanded="true" />
+                <element signature="e#4660#4692#0" expanded="true" />
+                <element signature="e#7006#7007#0" expanded="true" />
+                <element signature="e#7051#7052#0" expanded="true" />
+                <element signature="e#11464#11504#0" expanded="true" />
+                <element signature="e#11792#11832#0" expanded="true" />
+                <element signature="e#12320#12359#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContactAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/testapp/phonebook/ui/adapters/ContactAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="90" column="49" selection-start-line="90" selection-start-column="49" selection-end-line="90" selection-end-column="49" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -1838,7 +1947,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/src/main/java/ua/testapp/phonebook/ui/adapters/ContactAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ua/testapp/phonebook/utils/DialogHelper.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ua/testapp/phonebook/ui/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ua/testapp/phonebook/managers/ContactManager.java" />
       </list>
     </option>
   </component>
@@ -1975,6 +2086,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="phonebook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PhoneBook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PhoneBook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phonebook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2351,21 +2496,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/testapp/phonebook/managers/ContactManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7579832">
+          <caret line="59" column="4" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/testapp/phonebook/ui/adapters/ContactAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="90" column="49" selection-start-line="90" selection-start-column="49" selection-end-line="90" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.6672269">
+          <caret line="196" column="16" selection-start-line="196" selection-start-column="16" selection-end-line="196" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/testapp/phonebook/utils/DialogHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.87731093">
+          <caret line="57" column="89" selection-start-line="57" selection-start-column="89" selection-end-line="57" selection-end-column="89" />
+          <folding>
+            <element signature="e#793#806#0" expanded="true" />
+            <element signature="e#1089#1147#0" expanded="true" />
+            <element signature="e#1647#1697#0" expanded="true" />
+            <element signature="e#1729#1762#0" expanded="true" />
+            <element signature="e#1794#1825#0" expanded="true" />
+            <element signature="e#1970#2011#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/testapp/phonebook/managers/ContactManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.394958">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/testapp/phonebook/ui/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39831933">
-          <caret line="183" column="51" selection-start-line="183" selection-start-column="51" selection-end-line="183" selection-end-column="51" />
+        <state vertical-scroll-proportion="3.6907563">
+          <caret line="495" column="35" selection-start-line="495" selection-start-column="35" selection-end-line="495" selection-end-column="35" />
           <folding>
-            <element signature="e#6905#6906#0" expanded="true" />
-            <element signature="e#6950#6951#0" expanded="true" />
+            <element signature="e#4274#4302#0" expanded="true" />
+            <element signature="e#4627#4658#0" expanded="true" />
+            <element signature="e#4660#4692#0" expanded="true" />
+            <element signature="e#7006#7007#0" expanded="true" />
+            <element signature="e#7051#7052#0" expanded="true" />
+            <element signature="e#11464#11504#0" expanded="true" />
+            <element signature="e#11792#11832#0" expanded="true" />
+            <element signature="e#12320#12359#0" expanded="true" />
           </folding>
         </state>
       </provider>

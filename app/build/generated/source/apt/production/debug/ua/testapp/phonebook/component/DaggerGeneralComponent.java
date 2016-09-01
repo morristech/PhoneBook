@@ -83,8 +83,6 @@ public final class DaggerGeneralComponent implements GeneralComponent {
 
   private Provider<BitmapUtil> bitmapUtilProvider;
 
-  private MembersInjector<MainActivity> mainActivityMembersInjector;
-
   private MembersInjector<ContactRepository> contactRepositoryMembersInjector;
 
   private Provider<ContactDataSource> provideContactRemoteDataSourceProvider;
@@ -102,6 +100,8 @@ public final class DaggerGeneralComponent implements GeneralComponent {
   private MembersInjector<ContactManager> contactManagerMembersInjector;
 
   private Provider<ContactManager> contactManagerProvider;
+
+  private MembersInjector<MainActivity> mainActivityMembersInjector;
 
   private MembersInjector<CreateContactActivity> createContactActivityMembersInjector;
 
@@ -150,13 +150,6 @@ public final class DaggerGeneralComponent implements GeneralComponent {
 
     this.bitmapUtilProvider = BitmapUtil_Factory.create(contentUtilProvider);
 
-    this.mainActivityMembersInjector =
-        MainActivity_MembersInjector.create(
-            fileUtilProvider,
-            bitmapUtilProvider,
-            ExternalStorageUtil_Factory.create(),
-            DialogHelper_Factory.create());
-
     this.contactRepositoryMembersInjector =
         ContactRepository_MembersInjector.create(ExternalStorageUtil_Factory.create());
 
@@ -194,6 +187,14 @@ public final class DaggerGeneralComponent implements GeneralComponent {
         ContactManager_MembersInjector.create(contactRepositoryProvider, phoneRepositoryProvider);
 
     this.contactManagerProvider = ContactManager_Factory.create(contactManagerMembersInjector);
+
+    this.mainActivityMembersInjector =
+        MainActivity_MembersInjector.create(
+            fileUtilProvider,
+            bitmapUtilProvider,
+            ExternalStorageUtil_Factory.create(),
+            DialogHelper_Factory.create(),
+            contactManagerProvider);
 
     this.createContactActivityMembersInjector =
         CreateContactActivity_MembersInjector.create(
